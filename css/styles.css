@@ -15,20 +15,23 @@
   border: 1px solid grey;
   border-radius: 5px;
   padding: 20px;
+  /* background-image: url('images/background.jpg'); */
+}
+
+.bg-image
+{
+  background-image: url('images/background.jpg');
+  /* filter: blur(8px);
+ -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .col-md-4
 {
-  border-right: 0.5px solid grey;
-}
-
-.image
-{
-  background-image: url('images/math.jpg');
-  background-color: #cccccc;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  border-right: 2px solid grey;
 }
 
 .wrapper
@@ -41,6 +44,11 @@
   padding-left: 80px;
 }
 
+img
+{
+  padding-right: 10px;
+  padding-top: 10px;
+}
 .h-intro
 {
   text-align: center;
