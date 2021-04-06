@@ -1,0 +1,45 @@
+.heading
+{
+  text-align: center;
+  font-family: '', sans-serif;
+  font-weight: bolder;
+}
+
+.row
+{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-md-4
+{
+  border-right: 0.5px solid grey;
+}
+
+.wrapper
+{
+  width: 550px;
+}
+
+.data-in
+{
+  padding-left: 80px;
+}
+
+.h-intro
+{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.h-intro p
+{
+  font-style: italic;
+}
+
+#button
+{
+  padding-top: 20px;
+  text-align: center;
+}
