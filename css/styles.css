@@ -15,12 +15,11 @@
   border: 1px solid grey;
   border-radius: 5px;
   padding: 20px;
-  /* background-image: url('images/background.jpg'); */
 }
 
 .bg-image
 {
-  background-image: url('images/background.jpg');
+  background-image: url('images/math.jpg');
   /* filter: blur(8px);
  -webkit-filter: blur(8px);
   height: 100%;
