@@ -15,27 +15,18 @@
   border: 1px solid grey;
   border-radius: 5px;
   padding: 20px;
-}
-
-.bg-image
-{
-  background-image: url('images/math.jpg');
-  /* filter: blur(8px);
- -webkit-filter: blur(8px);
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  background-image: url('../images/back2.webp');
 }
 
 .col-md-4
 {
-  border-right: 2px solid grey;
+  border-right: 2px solid white;
 }
 
 .wrapper
 {
   width: 550px;
+  color: white;
 }
 
 .data-in
@@ -52,6 +43,7 @@ img
 {
   text-align: center;
   padding-bottom: 20px;
+  color: white;
 }
 
 .h-intro p
