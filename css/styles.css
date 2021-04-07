@@ -1,22 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Teko:wght@500;700&family=Yatra+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
-
-.heading
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Reenie+Beanie&family=Sacramento&family=Stick&display=swap');
+.heading h1
 {
   text-align: center;
-  font-family: '', sans-serif;
+  font-family: 'Fredericka the Great', sans-serif;
   font-weight: bolder;
+  font-size: 70px;
+}
+.heading p, .column p
+{
+  text-align: center;
+  font-family: 'Stick', sans-serif;
+  font-size: 20px;
 }
 
 .column
 {
   text-align: left;
-  color: blue;
+  color: black;
   padding-top: 40px;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  font-size: 30px;
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
 }
 
 #row
@@ -24,18 +28,21 @@
   border: 1px solid grey;
   border-radius: 5px;
   padding: 20px;
-  background-image: url('../images/back2.webp');
+  background-image: url('../images/top.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.col-md-4
+/* .col-md-4
 {
   border-right: 2px solid white;
-}
+} */
 
 .wrapper
 {
   width: 550px;
-  color: white;
+  color: black;
 }
 
 .data-in
@@ -52,7 +59,7 @@ img
 {
   text-align: center;
   padding-bottom: 20px;
-  color: white;
+  color: black;
 }
 
 .h-intro p

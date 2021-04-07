@@ -5,34 +5,38 @@
     <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" id="admin.css-css" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/mdb5/3.4.0/compiled.min.css?ver=3.4.0-update.1" type="text/css" media="all">
     <link rel="stylesheet" href="css/styles.css">
     <title>Age Calculator</title>
   </head>
   <body>
     <form class="form-group" action="index.html" method="post">
       <div class="container">
+        <div class="top">
+          <img src="images/toppic.png" alt="" width="100%" height="300px">
+        </div>
         <div class="heading">
-          <h2>Akan Name Generator</h2>
+          <h1>Akan Name Generator</h1>
+          <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person.</p>
         </div>
 
         <div class="row">
           <div class="col-md-3">
-            <img src="images/right.webp" alt="" width="240" height="250">
+            <img src="images/hakuna.jpg" alt="" width="240" height="250">
           </div>
           <div class="col-md-6 column">
-            <p>Do you know your Akam name?</p>
-            <p>Matter of fact, do you know the exact day you were born?</p>
-            <p>Worry no more, fill in the form below and discover your new name!</p>
+            <p>Do you know yours?</p>
+            <p>Complete the form to discover your new name!</p>
           </div>
           <div class="col-md-3">
-            <img src="images/right.webp" alt="" width="240" height="250">
+            <img src="images/hakuna.jpg" alt="" width="240" height="250">
           </div>
         </div>
         <hr>
         <div class="row" id="row">
           <div class="bgimage"></div>
           <div class="col-md-4">
-            <img src="images/math2.jpg" alt="" width="340" height="500">
+            <img src="images/matata.jpg" alt="" width="340" height="500">
           </div>
 
           <div class="col-md-8">
@@ -44,26 +48,41 @@
                   <div class="data-in">
                     <div class="form-group">
                         <label>Period of Birth</label>
-                        <input type="text" name="username" class="form-control" value="Please fill in the period, ie 1900's or 2000's">
+                        <input type="text" name="username" class="form-control" placeholder="Please fill in the period, ie 1900's or 2000's">
                         <span class="help-block"></span>
                     </div>
 
                     <div class="form-group">
                         <label>Year of Birth</label>
-                        <input type="text" name="username" class="form-control" value="Please fill in the last 2 numbers of your YOB">
+                        <input type="text" name="username" class="form-control" placeholder="Please fill in the last 2 numbers of your YOB">
                         <span class="help-block"></span>
                     </div>
 
                     <div class="form-group">
                         <label>Month of Birth</label>
-                        <input type="text" name="username" class="form-control" value="Please fill in your MOB">
+                        <input type="text" name="username" class="form-control" placeholder="Please fill in your MOB">
                         <span class="help-block"></span>
                     </div>
 
                     <div class="form-group">
                         <label>Date of Birth</label>
-                        <input type="text" name="username" class="form-control" value="Please fill in your DOB">
+                        <input type="text" name="username" class="form-control" placeholder="Please fill in your DOB">
                         <span class="help-block"></span>
+                    </div>
+
+                    <div class="form-group">
+                      <label>Gender</label>
+                      <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Gender
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button">Action</button>
+                          <button class="dropdown-item" type="button">Another action</button>
+                          <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                      </div>
+                      <!-- <span class="help-block"></span> -->
                     </div>
 
                     <div class="form-group" id="button">
