@@ -11,7 +11,7 @@
   </head>
   <body>
 
-        <div class="container">
+    <div class="container">
           <div class="top">
             <img src="images/toppic.png" alt="" width="100%" height="300px">
           </div>
@@ -45,8 +45,8 @@
 
             <div class="col-sm-8">
               <div class="h-intro">
-                  <h2>What Day were you born?</h2>
-                  <p>Fill this form to find out the day of the week you were born.</p>
+                  <h2>What is your Akan name?</h2>
+                  <p>Fill this form to find out.</p>
               </div>
 
               <div class="data-in">
@@ -99,25 +99,6 @@
       </div>
     </div>
 
-    <script type="text/javascript">
-
-      const wrapper = document.querySelector('.wrapper');
-      const form = wrapper.querySelectorAll('.form');
-      const submitInput = form[0].querySelector('input[type="submit"]');
-
-      function getDataForm(e)
-      {
-        e.preventDefault();
-        var formData = new formData(form[0]);
-        alert( formData.get('period') + ' - ' + formData.get('year') + ' - ' + formData.get('month') + ' - ' + formData.get('date') );
-      }
-
-      document.addEventListener('DOMContentLoaded'.function()
-      {
-        submitInput.addEventListener('click'.getDataForm, false);
-      }, false);
-
-    </script>
-
+    <script src="script.js"></script>
   </body>
 </html>
