@@ -1,5 +1,4 @@
-# ageProject
-# My Portfolio
+# AKAN NAME GENERATOR
 
 <p align="center">
     <img src="images/port.png" alt="Logo" width="100" height="100">
