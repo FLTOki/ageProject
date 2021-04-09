@@ -1,7 +1,6 @@
 # AKAN NAME GENERATOR
 
 <p align="center">
-    <img src="images/port.png" alt="Logo" width="100" height="100">
 
   <h3 align="center">AKAN NAME GENERATOR</h3>
   <p align="center">
