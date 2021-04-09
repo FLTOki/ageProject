@@ -52,13 +52,18 @@ I used the following resources in its development
 # How to Use
 Enter all the required data in the form presented on the page as per specifications,
 
-In the period box, enter the first 2 numbers of your birth year, e.g for 1992, enter 19.
-in the year box, enter the last 2 numbers of your birth year, e.g for 1992, enter 92
-In the month box, enter your month of birth. Lastly, enter your date of birth and gender.
-For gender, enter 1 for male, 2 for female.
+<p align = "center">
+<ol>    
+<li>In the period box, enter the first 2 numbers of your birth year, e.g for 1992, enter 19.</li>
+<li>In the year box, enter the last 2 numbers of your birth year, e.g for 1992, enter 92.</li>
+<li>In the month box, enter your month of birth. </li>
+<li>Lastly, enter your date of birth and gender.</li>
+<li>For gender, enter 1 for male, 2 for female.</li>
+</ol>
 
 N/B: All data entered should be numerical, as would be in the format DD/MM/YYYY.
 
+</p>
 <a href="https://github.com/othneildrew/Best-README-Template">
   <img src="images/form.png" alt="Logo" width="850" height="650">
 </a>
