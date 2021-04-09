@@ -14,14 +14,18 @@
   color: black;
 }
 
+.label
+{
+  font-style: normal;
+  font-weight: bolder;
+}
+
 .column
 {
   text-align: left;
   color: black;
   padding-top: 40px;
   font-size: 30px;
-  /* border-left: 1px solid black;
-  border-right: 1px solid black; */
 }
 
 #row
@@ -34,12 +38,6 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-
-/* .col-md-4
-{
-  border-right: 2px solid white;
-  padding-top: 10px;
-} */
 
 .wrapper
 {
@@ -71,6 +69,5 @@ img
 
 #button
 {
-  padding-top: 20px;
   text-align: center;
 }
